@@ -1,8 +1,8 @@
 package com.springboot.relationship.data.repository;
 
 import com.querydsl.core.types.Predicate;
-import com.springboot.advanced_jpa.data.entity.Product;
-import com.springboot.advanced_jpa.data.entity.QProduct;
+import com.springboot.relationship.data.entity.Product;
+import com.springboot.relationship.data.entity.QProduct;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

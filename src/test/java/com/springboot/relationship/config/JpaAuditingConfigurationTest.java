@@ -1,7 +1,7 @@
 package com.springboot.relationship.config;
 
-import com.springboot.advanced_jpa.data.entity.Product;
-import com.springboot.advanced_jpa.data.repository.ProductRepository;
+import com.springboot.relationship.data.entity.Product;
+import com.springboot.relationship.data.repository.ProductRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

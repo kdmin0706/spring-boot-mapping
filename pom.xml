@@ -12,8 +12,8 @@
     <groupId>com.springboot</groupId>
     <artifactId>relationship</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>advanced_jpa</name>
-    <description>advanced_jpa</description>
+    <name>relationship</name>
+    <description>relationship</description>
     <properties>
         <java.version>11</java.version>
     </properties>
