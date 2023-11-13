@@ -8,14 +8,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 @SpringBootTest
-class ProductRepositorySupportTest {
+class ProductRepositoryTest {
 
     @Autowired
-    ProductRepositorySupport productRepositorySupport;
+    ProductRepository productRepository;
 
     @Test
     void findByNameTest() {
-        List<Product> productList = productRepositorySupport.findByName("pen");
+        List<Product> productList = productRepository.findByName("pen");
 
         for (Product product : productList) {
             System.out.println(product.getNumber());
