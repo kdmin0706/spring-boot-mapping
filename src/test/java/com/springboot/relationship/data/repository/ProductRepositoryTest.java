@@ -26,23 +26,20 @@ class ProductRepositoryTest {
 
     @Test
     void sortingAndPagingTest() {
-        Product product1 = Product.builder()
-                .name("pen")
-                .price(1000)
-                .stock(100)
-                .build();
+        Product product1 = new Product();
+        product1.setName("pen");
+        product1.setPrice(1000);
+        product1.setStock(100);
 
-        Product product2 = Product.builder()
-                .name("pen")
-                .price(5000)
-                .stock(500)
-                .build();
+        Product product2 = new Product();
+        product2.setName("pen");
+        product2.setPrice(4000);
+        product2.setStock(400);
 
-        Product product3 = Product.builder()
-                .name("pen")
-                .price(500)
-                .stock(50)
-                .build();
+        Product product3 = new Product();
+        product3.setName("pen");
+        product3.setPrice(5000);
+        product3.setStock(600);
 
         this.productRepository.save(product1);
         this.productRepository.save(product2);

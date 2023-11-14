@@ -14,11 +14,10 @@ class JpaAuditingConfigurationTest {
 
     @Test
     void auditingTest() {
-        Product product = Product.builder()
-                .name("pen")
-                .price(1000)
-                .stock(100)
-                .build();
+        Product product = new Product();
+        product.setName("pen");
+        product.setPrice(1000);
+        product.setStock(100);
 
         Product saved = this.productRepository.save(product);
 
